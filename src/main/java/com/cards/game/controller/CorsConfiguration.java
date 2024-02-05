@@ -13,7 +13,8 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200,https://cardgame-gold.vercel.app/")
+                        .allowedOrigins(
+                                "http://localhost:4200,https://cardgame-gold.vercel.app/,https://cardgame-git-main-yazzukes-projects.vercel.app/home,https://cardgame-1tmz0fay0-yazzukes-projects.vercel.app/home")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*")
                         .allowCredentials(true)
