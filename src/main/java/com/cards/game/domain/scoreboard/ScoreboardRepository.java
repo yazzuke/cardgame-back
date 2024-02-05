@@ -6,6 +6,6 @@ import org.springframework.data.domain.Sort;
 import java.util.List;
 
 @Repository
-public interface ScoreboardRepository extends MongoRepository<ScoreboardEntry, String> {
-    List<ScoreboardEntry> findAllByOrderByResolutionTimeAsc();
+public interface ScoreboardRepository extends MongoRepository<Scoreboard, String> {
+    List<Scoreboard> findAllByOrderByResolutionTimeAsc();
 }

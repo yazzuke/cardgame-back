@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Document
-public class ScoreboardEntry {
+public class Scoreboard {
 
     @Id
     private String id;
