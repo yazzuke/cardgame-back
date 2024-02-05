@@ -12,6 +12,7 @@ public class Scoreboard {
     @Id
     private String id;
     private String userId;
+    private String username;
     private int wrongChoices;
     private int goodChoices;
     private long timestamp;
